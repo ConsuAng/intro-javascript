@@ -2,7 +2,7 @@ const button = document.querySelector('button');
 
 const setFinal = () => {
   let amount = document.querySelector('#number').value;
-  let total = +amount * 5000;
+  let total = +amount * 75000;
   let inputColor = document.querySelector('#color').value;
   let formatNumber = new Intl.NumberFormat('de-DE').format(total);
   
